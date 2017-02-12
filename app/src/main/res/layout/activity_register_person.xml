@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register_person"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="i7.pacials.RegisterPersonActivity">
+
+    <Button
+        android:text="Presione si quiere utilizar OCR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnOCR"
+        android:layout_alignParentStart="true"
+        android:onClick="insertarOCR"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Ingrese el Nombre Completo"
+        android:layout_marginTop="15px"
+        android:id="@+id/nameRegisterP"
+        android:layout_below="@+id/ciRegisterP"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPostalAddress"
+        android:hint="Ingrese la direccion del domicilio"
+        android:layout_marginTop="15px"
+        android:id="@+id/direccionRegisterP"
+        android:layout_below="@+id/nameRegisterP"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="none"
+        android:hint="Ingrese la fecha de Nacimiento"
+        android:layout_marginTop="15px"
+        android:onClick="mostrarDialogo"
+        android:id="@+id/birthRegisterP"
+        android:layout_below="@+id/direccionRegisterP"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Ingrese la Ocupacion de la Persona"
+        android:layout_marginTop="15px"
+        android:id="@+id/ocupationRegisterP"
+        android:layout_below="@+id/birthRegisterP"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Ingrese el Estado Civil de la Persona"
+        android:layout_marginTop="15px"
+        android:id="@+id/statuscivilRegisterP"
+        android:layout_below="@+id/ocupationRegisterP"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Aceptar"
+        android:layout_width="300px"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/button2"
+        android:onClick="aPerson"/>
+
+    <Button
+        android:text="Cancelar"
+        android:layout_width="300px"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="cPersona"
+        android:id="@+id/button3" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Ingrese el Nro de Carnet de Identidad"
+        android:layout_marginTop="13dp"
+        android:id="@+id/ciRegisterP"
+        android:layout_below="@+id/btnOCR"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

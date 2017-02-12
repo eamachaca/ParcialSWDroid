@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "462473972519",
+    "firebase_url": "https://pacials-7d1b9.firebaseio.com",
+    "project_id": "pacials-7d1b9",
+    "storage_bucket": "pacials-7d1b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:462473972519:android:82934cd456fb01a1",
+        "android_client_info": {
+          "package_name": "i7.pacials"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "462473972519-krkkqtkclkn4a379kjusstbo238m4pu4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATOCjYPyDgkvZ4ZJrbbjCO8zwqHpe2j2Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "462473972519-krkkqtkclkn4a379kjusstbo238m4pu4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
